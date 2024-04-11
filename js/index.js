@@ -33,6 +33,7 @@ document.addEventListener('DOMContentLoaded', function() {
             $("#wholesale-menu").slideToggle();
         });
     });
+    
     var menuBtn = document.getElementById("menu-btn");
     var closeBtn = document.getElementById("close-btn");
     var sidebar = document.getElementById("sidebar");
