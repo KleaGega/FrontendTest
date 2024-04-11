@@ -1,0 +1,104 @@
+.btn-custom {
+	width: 100px;
+	height: 30px;
+	padding: 0.25rem 0.5rem; 
+	font-size: 0.75rem; 
+	line-height: 1.25; 
+}
+.cards-wrapper {
+	display: flex;
+	justify-content: center;
+}
+.card img {
+	max-width: 100%;
+	max-height: 100%;
+}
+.glide__arrow--custom {
+	background-color: gray;
+	color: white;
+	border-radius: 50%;
+	font-size: 20px;
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	border: none;
+  }
+  .glide__arrow--start {
+	left: 0;
+  }
+  .glide__arrow--end {
+	right: 0;
+  }
+  .nav-link.dropdown-toggle {
+	color: #fff;
+	padding: 0.5rem 1rem;
+	border-radius: 0.25rem;
+	width: 70px;
+	height: 10px;
+  }
+  .sub-menu {
+    display: none;
+  }
+
+  @media (min-width: 768px) {
+    .border-lg-none {
+        border: none !important;
+    }
+}
+.side-navbar {
+	width: 50;
+	height: 100%;
+	position: fixed;
+	margin-left: -300px;
+	background-color: white;
+	transition: 0.5s;
+	z-index: 2;
+	
+  }
+  .nav-link:active,
+  .nav-link:focus,
+  .nav-link:hover {
+	background-color: #ffffff26;
+  }
+  .my-container {
+	transition: 0.4s;
+  }
+  .active-nav {
+	margin-left: 0;
+  }
+  /* for main section */
+  .active-cont {
+	margin-left: 180px;
+  }
+  #menu-btn {
+	background-color: #100901;
+	color: #fff;
+	margin-left: -62px;
+  }
+  .toggle-btn {
+	background-color: transparent;
+	border: none;
+	padding: 0;
+	font-size: 20px;
+	cursor: pointer;
+	color: #333;
+  }
+
+  .close-btn {
+	position: absolute;
+	top: 0;
+	right: 0;
+	background-color: transparent;
+	border: none;
+	padding: 5px;
+	font-size: 20px;
+	cursor: pointer;
+	color: #333;
+  }
+@media (max-width: 768px) {
+	.blogs {
+		overflow-x: scroll;
+	}
+}
